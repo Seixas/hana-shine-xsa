@@ -137,7 +137,7 @@ modules:
       - name: shine-auditlog
 
   - name: shine-site-web
-    type: javascript.nodejs
+    type: nodejs
     path: site-web/
     requires:
       - name: shine-uaa
